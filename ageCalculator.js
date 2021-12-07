@@ -8,7 +8,6 @@ let secondPossibleAge = futureYear - birthYear-1;
 
 //logging to the console
 
-console.log(firstPossibleAge);
-console.log(secondPossibleAge);
+console.log("I will be either  " + firstPossibleAge + " or " +secondPossibleAge + " in 2025.");
 
 //____________________END___________________________________
