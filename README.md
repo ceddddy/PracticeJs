@@ -1,0 +1,2 @@
+# PracticeJs
+Javascript practice exercises
