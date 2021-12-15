@@ -1,8 +1,8 @@
 //My variables
 
 const radius = 25;
-const area = 3.14 * (radius*radius) ;
-const circumference = (radius*2) * 3.14;
+const area = Math.PI * (radius*radius) ;
+const circumference = (radius*2) * Math.PI;
 const circleCircumference = "The circumference is " + circumference + ".";
 
 //Logging to the console
