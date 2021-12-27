@@ -11,3 +11,13 @@ let secondPossibleAge = futureYear - birthYear-1;
 console.log("I will be either  " + firstPossibleAge + " or " +secondPossibleAge + " in 2025.");
 
 //____________________END___________________________________
+
+function calculateDogAge(age){
+  const dogYear =age * 7;
+  console.log("Your doggie is " + dogYear + " years old in dog years!")
+
+}
+  
+calculateDogAge(4);
+
+
