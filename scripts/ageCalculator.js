@@ -19,5 +19,7 @@ function calculateDogAge(age){
 }
   
 calculateDogAge(4);
+calculateDogAge(2);
+calculateDogAge(5);
 
 
