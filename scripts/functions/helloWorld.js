@@ -1,4 +1,4 @@
-function helloWorld(str) {
+function helloWorlds(str) {
   if (str == "en") {
     return "Hello World" ;
   } 
@@ -13,6 +13,16 @@ function helloWorld(str) {
 
   return "Hello World"; 
 }
+
+/*const helloWorld = (lang) => {
+  const langaugeMaps = {
+    en: 'Helloe World',
+    es: 'Hola Mundo',
+    de: 'Hallo Welt'
+  }
+
+  return langaugeMaps[lang] || 'Hello World';
+}*/
 
 console.log(helloWorld("es"));
 console.log(helloWorld("en"));
