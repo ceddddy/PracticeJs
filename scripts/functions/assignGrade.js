@@ -19,9 +19,18 @@ function assignGrade(num) {
   }
 }
 
-console.log(assignGrade(92));
-console.log(assignGrade(78));
-console.log(assignGrade(55));
-console.log(assignGrade(31));
-console.log(assignGrade(28));
-console.log(assignGrade(13));
+
+
+//console.log(assignGrade(92));
+//console.log(assignGrade(78));
+//console.log(assignGrade(55));
+//console.log(assignGrade(31));
+//console.log(assignGrade(28));
+//console.log(assignGrade(13));
+
+//for loop
+
+for (let i = 80; i <= 100; i++){
+  console.log(`For ${i}, you got a ${assignGrade(i)}` );
+}
+//
