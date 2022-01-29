@@ -6,3 +6,5 @@ let newString = orgString.split("")
 
 
  console.log(newString);
+
+
