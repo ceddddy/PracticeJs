@@ -28,10 +28,20 @@ const characters = [{
 },
 ];
 
-//sort by height
+//sort by gender
 
-const sortByHeight = characters.sort((a, b) => {
-  return b.height - a.height;
+
+const sortByGender = characters.sort((a, b) => {
+  const genderA = a.gender.toUpperCase();
+  const genderB = b.gender.toUpperCase();
+  if (genderA < genderB) {
+    return -1;
+   }
+   if (genderA > genderB) {
+     return 1;
+   }
+   return 0;
+
 });
 
-console.log(sortByHeight);
+console.log(sortByGender);
