@@ -1,4 +1,5 @@
 const characters = [{
+
     name: 'Luke Skywalker', //13
     height: '172',
     mass: '77',
@@ -32,15 +33,13 @@ const characters = [{
 
 
 
-// const totalCharsByEyeColor = characters.reduce((preVal, currVal) => {
-//   let allLetters = preVal + currVal.name.replace(/\s+/g, '').length; 
-//   return allLetters.map(chooseColor());
-// }, 0);
-
-// console.log(totalCharsByEyeColor);
-
-
+const totalChars = characters.reduce((preVal, currVal) => {
+ 
+  return preVal + currVal.name.replace(/\s+/g, '').length;
+ 
+}, 0);
+console.log(totalChars);
 
 
 
-// console.log(characters[0].eye_color);
+

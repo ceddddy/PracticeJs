@@ -32,6 +32,6 @@ const characters = [{
 
 const totalChars = characters.reduce((preVal, currVal) => {
   // console.log(preVal + currVal.name.replace(/\s+/g, ''));
-  return preVal + currVal.name.replace(/\s+/g, 'Y').length;
+  return preVal + currVal.name.replace(/\s+/g, '').length;
 }, 0);
 console.log(totalChars);
