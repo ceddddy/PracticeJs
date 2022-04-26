@@ -13,6 +13,7 @@
 // []
 const first = function (array, n) {
   if (array == null) {
+    // The void keyword in JavaScript, is used to evaluate an expression which does not return any value.
     return void 0;
   }
   if (n == null) {
